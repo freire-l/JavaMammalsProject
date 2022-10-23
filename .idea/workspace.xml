@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b659b276-fbe5-4149-b83e-6877ad23273d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractMammals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/luisf/domain/mammal/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/luisf/domain/mammal/canine/Canine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/luisf/domain/mammal/feline/Feline.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
