@@ -24,7 +24,7 @@ public class Tiger extends Feline{
 
     @Override
     public String run() {
-        return null;
+        return "The Tiger is running at " + this.getSpeed() + "Km/h";
     }
 
     @Override

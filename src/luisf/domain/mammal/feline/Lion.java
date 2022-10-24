@@ -36,7 +36,7 @@ abstract public class Lion extends Feline{
 
     @Override
     public String communicate() {
-        return null;
+        return "The " + this.getScientificName() +" is roaring with "+ this.getRoarDecibels() + " of power";
     }
 
 }

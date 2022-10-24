@@ -14,22 +14,22 @@ public class Wolf extends Canine{
 
     @Override
     public String eat() {
-        return null;
+        return "The wolf is eating using this bite of " + this.biteStrength + "pound of strength";
     }
 
     @Override
     public String sleep() {
-        return null;
+        return "The " + this.getColor() + " wolf is sleeping in the " + this.getHabitat();
     }
 
     @Override
     public String run() {
-        return null;
+        return "The wolf runs";
     }
 
     @Override
     public String communicate() {
-        return null;
+        return "The wolf is barking, his true name its " + this.getScientificName();
     }
 
     public Wolf(String habitat, Float height, Float length, Float weight, String scientificName, String color, Float fangSize) {

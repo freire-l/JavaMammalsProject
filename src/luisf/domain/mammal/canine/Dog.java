@@ -2,7 +2,6 @@ package luisf.domain.mammal.canine;
 
 abstract public class Dog extends Canine{
     private Integer packNum;
-    private Float fangSize;
 
     public Dog(String habitat, Float height, Float length, Float weight, String scientificName, String color, Float fangSize, Integer packNum, Float fangSize1) {
         super(habitat, height, length, weight, scientificName, color, fangSize);
@@ -15,18 +14,13 @@ abstract public class Dog extends Canine{
     }
 
     @Override
-    public Float getFangSize() {
-        return fangSize;
-    }
-
-    @Override
     public String eat() {
-        return null;
+        return "The " + this.getScientificName() + " is eating";
     }
 
     @Override
     public String sleep() {
-        return null;
+        return "The " + this.getColor() + " dog is sleeping next to his pack " + this.getPackNum();
     }
 
     @Override
