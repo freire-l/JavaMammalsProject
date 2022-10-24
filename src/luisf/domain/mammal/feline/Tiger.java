@@ -3,8 +3,9 @@ package luisf.domain.mammal.feline;
 public class Tiger extends Feline{
     private String tigerSpecies;
 
-    public Tiger(String habitat, Float height, Float length, Float weight, String scientificName, Float clawSize, Integer speed) {
+    public Tiger(String habitat, Float height, Float length, Float weight, String scientificName, Float clawSize, Integer speed, String tigerSpecies) {
         super(habitat, height, length, weight, scientificName, clawSize, speed);
+        this.tigerSpecies = tigerSpecies;
     }
 
 

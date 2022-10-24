@@ -1,12 +1,11 @@
 package luisf.domain.mammal.canine;
 
-abstract public class Dog extends Canine{
+public class Dog extends Canine{
     private Integer packNum;
 
-    public Dog(String habitat, Float height, Float length, Float weight, String scientificName, String color, Float fangSize, Integer packNum, Float fangSize1) {
+    public Dog(String habitat, Float height, Float length, Float weight, String scientificName, String color, Float fangSize, Integer packNum) {
         super(habitat, height, length, weight, scientificName, color, fangSize);
         this.packNum = packNum;
-        this.fangSize = fangSize1;
     }
 
     public Integer getPackNum() {

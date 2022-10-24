@@ -1,6 +1,6 @@
 package luisf.domain.mammal.feline;
 
-abstract public class Lion extends Feline{
+public class Lion extends Feline{
     private Integer herdNum;
     private Float roarDecibels;
 
